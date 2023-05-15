@@ -1,0 +1,106 @@
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 5px;
+  border-radius: 15px 50px 30px 5px;
+  border-color: black;
+  background-color: whitesmoke;
+  padding: 7.5%;
+  height: 30vh;
+  width: 30vw;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abel';
+  letter-spacing: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.create-btn {
+  width: 100%;
+}
+
+
+
+.message-box {
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15px 50px 30px 5px;
+  background-color: whitesmoke;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  align-items: stretch;
+
+}
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+}
+
+.inputs {
+  padding: 20px;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Abel'
+  letter-spacing: 2px;
+}
+
+#message {
+  flex: 1;
+  border: radius 7px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.muted {
+  font-size: 10px;
+  color: darkgray;
+}

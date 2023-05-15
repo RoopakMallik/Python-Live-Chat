@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block content %}
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+</head>
+<div class="maindiv">
+  <form method="post" class="buttons">
+    <h1><u>Welcome to Chat Room</u></h1>
+    <div class="username">
+      <label> </label>
+      <input type="text" placeholder="Pick a username" name="name" value="{{name}}" />
+    </div>
+    <div class="join">
+      <input type="text" placeholder="Room Code" name="code" value="{{code}}" /><br>
+      <button type="submit" name="join">Join
+        Room</button>
+    </div>
+    <button type="submit" name="create" class="create-btn" style="border-color: whitesmoke;">Create Chat
+      Room</button>
+    {% if error %}
+    <ul>
+      <li>{{error}}</li>
+    </ul>
+    {% endif %}
+  </form>
+</div>
+{% endblock %}
